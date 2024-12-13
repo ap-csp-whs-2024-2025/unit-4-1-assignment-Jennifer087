@@ -18,6 +18,7 @@ int main()
   std::string favNum = "7";
   std::cout << "My name is " << student << "\n";
 
+//Exercise 1
   int x  = 25;
   int y = 3;
 
@@ -29,9 +30,18 @@ int main()
   int z = 10;
   bool x_greater_z = x > z;
   bool y_greater_x = y > x;
-  std::cout << x_greater_z << std::end1
-            << y_greater_x << std::end1;
-                   
-            
+  
+//Exercise 2: Boolean Variables
+
+  bool isSunny = true;
+  bool hasUmbrella = false;
+
+  std::cout << "Exercise 2: " << std::end1; 
+  std::cout << "isSunny && hasUmbrella: " << (isSunny && hasUmbrella) << std::end1;
+  std::cout << "isSunny || hasUmbrella: " << (isSunny || hasUmbrella) << std::end1;
+  std::cout << "!isSunny: " << (!isSunny) << std::end1;
+  std::cout << "!isSunny && hasUmbrella: " << (!isSunny && !hasUmbrella) << std::end1;
+  
+  std::cout << std::end1;
   return 0;
 }
