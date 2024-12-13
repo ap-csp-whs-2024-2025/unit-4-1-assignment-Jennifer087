@@ -25,7 +25,7 @@ int main()
   int add_xy;
   int sub_xy;
 
-  std::cout << add_xy << std::end1 << sub_xy << std::end1;
+  std::cout << add_xy << std::endl << sub_xy << std::endl;
 
   int z = 10;
   bool x_greater_z = x > z;
@@ -33,15 +33,25 @@ int main()
   
 //Exercise 2: Boolean Variables
 
-  bool isSunny = true;
-  bool hasUmbrella = false;
+bool isSunny = true;
+    bool hasUmbrella = false;
 
-  std::cout << "Exercise 2: " << std::end1; 
-  std::cout << "isSunny && hasUmbrella: " << (isSunny && hasUmbrella) << std::end1;
-  std::cout << "isSunny || hasUmbrella: " << (isSunny || hasUmbrella) << std::end1;
-  std::cout << "!isSunny: " << (!isSunny) << std::end1;
-  std::cout << "!isSunny && hasUmbrella: " << (!isSunny && !hasUmbrella) << std::end1;
-  
-  std::cout << std::end1;
+    std::cout << "Exercise 2:" << std::endl;
+    std::cout << "isSunny && hasUmbrella: " << (isSunny && hasUmbrella) << std::endl;
+    std::cout << "isSunny || hasUmbrella: " << (isSunny || hasUmbrella) << std::endl;
+    std::cout << "!isSunny: " << (!isSunny) << std::endl;
+    std::cout << "!isSunny && !hasUmbrella: " << (!isSunny && !hasUmbrella) << std::endl;
+
+    std::cout << std::endl;
+
+//Exercise 3: Mixing relational and Boolean Logic 
+    int n = 7
+    double m = 4.0
+    bool hasLicense = false
+
+    std::cout << "Exercise 3" << std::endl;
+    std::cout << n > m << (n>m);
+    std::cout << m_equal_4 = m = 4.0;
+    std::cout << 
   return 0;
 }
